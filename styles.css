@@ -424,6 +424,13 @@ footer {
   background: #eee7d9;
 }
 .evidence-note strong, .practice-box strong, .question-box strong { display: block; margin-bottom: .45rem; }
+.study-focus p {
+  margin: .65rem 0 0;
+  color: #4f5d55;
+  font-size: .9rem;
+  line-height: 1.8;
+}
+.study-focus p:first-of-type { margin-top: 0; }
 .timeline { margin: 2rem 0; position: relative; }
 .timeline::before { content: ""; position: absolute; left: 8px; top: 8px; bottom: 8px; width: 1px; background: rgba(24,36,30,.2); }
 .timeline-item { position: relative; padding: 0 0 1.7rem 2rem; }
